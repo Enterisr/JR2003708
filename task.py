@@ -37,7 +37,7 @@ def solve(size: int, board: list[str]):
 
 if __name__ == "__main__":
 
-    input_file = sys.argv[1] if len(sys.argv) > 1 else "output.yml"
+    input_file = sys.argv[1] if len(sys.argv) > 1 else "input.yml"
 
     size, board = load_yaml_board(input_file)
 

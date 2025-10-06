@@ -47,9 +47,9 @@ class TestDragonTask(unittest.TestCase):
     d 1
     p 2
     """
-        with open("test_input.yml", "w") as f:
+        with open("input.yml", "w") as f:
             f.write(yaml_content)
-        temp_file_path = "test_input.yml"
+        temp_file_path = "input.yml"
 
         try:
             size, board = load_yaml_board(temp_file_path)
