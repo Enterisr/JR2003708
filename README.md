@@ -18,9 +18,10 @@ Provide a solution for the CodeForces problem [#548](https://codeforces.com/prob
 ##
 
 ## Running
+```bash
 
 python task.py [ymlfile] (default is "input.yml)]
 
 ## Testing
-
+```bash
 python -m unittest test.py
